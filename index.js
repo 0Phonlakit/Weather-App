@@ -2,11 +2,15 @@ import express, { response }  from "express";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import https from "https";
+import dotenv from "dotenv";
+
+dotenv.config();
+
 
 const app = express();
 const port =  process.env.PORT || 3000;
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-const API_Key = "c1e0f5cd568ff62c58619a7839197cac"
+const API_Key = process.env.API_KEY;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
