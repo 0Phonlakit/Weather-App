@@ -1,6 +1,6 @@
 # Weather App
 ## Try Damo
-**You can try out the website at this link :** **https://weather-app-3d4p.onrender.com**
+**You can try out the website at this link :** **https://weather-apps-md9j.onrender.com/**
 
 ## About the website
 This website is a study of how to use JavaScript with external APIs only. It is not intended to be used for any illegal purposes. However, I would like to thank openweathermap for making this project possible. For more information about the website, you can visit this link: **https://openweathermap.org/**
